@@ -1,0 +1,23 @@
+SMART ACCESS PROJECT - WIRING
+
+LCD 16x2 I2C:
+VCC -> Raspberry Pi Pin 2 (5V)
+GND -> Raspberry Pi Pin 6 (GND)
+SDA -> Raspberry Pi Pin 3 (GPIO2/SDA)
+SCL -> Raspberry Pi Pin 5 (GPIO3/SCL)
+
+GREEN LED:
+GPIO17 / Pin 11 -> 220 ohm resistor -> LED long leg (+)
+LED short leg (-) -> GND Pin 14
+
+ACTIVE BUZZER MODULE:
+IN/S -> GPIO27 / Pin 13
+VCC -> 5V Pin 4
+GND -> GND Pin 14
+
+CAMERA:
+CSI camera -> Raspberry Pi camera CSI connector.
+
+NO RELAY.
+NO SOLENOID.
+NO DOOR LOCK.

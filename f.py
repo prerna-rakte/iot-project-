@@ -1,0 +1,1 @@
+import cv2; p=cv2.data.haarcascades+'haarcascade_frontalface_default.xml'; c=cv2.CascadeClassifier(p); print('Cascade:', p); print('Loaded:', not c.empty())
